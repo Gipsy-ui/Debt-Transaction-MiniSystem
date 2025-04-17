@@ -50,7 +50,7 @@ if (isset($_GET['delete'])) {
 
     <form method="post" class="mb-5" oninput="calculateTotals()">
         <div class="mb-3">
-            <label for="debt_owner" class="form-label">Debt Owner (Who owes the money)</label>
+            <label for="debt_owner" class="form-label">Debt Owner (Kinsa may utang)</label>
             <input type="text" name="debt_owner" id="debt_owner" class="form-control" required>
         </div>
         
