@@ -17,7 +17,7 @@ Delete transactions
 ✔️ Responsive Design - Works on desktop and mobile
 
 🚀 Installation
-Prerequisites
+1. Prerequisites
 
 PHP 7.4+
 
@@ -25,7 +25,7 @@ MySQL 5.7+
 
 Web server (Apache/Nginx)
 
-Database Setup
+2. Database Setup
 
 sql
 Copy
@@ -37,11 +37,11 @@ CREATE TABLE load_transactions (
     total_amount DECIMAL(10,2) NOT NULL,
     date_created DATETIME NOT NULL
 );
-Configuration
+
+3. Configuration
 Create config.php with your database credentials:
 
 php
-Copy
 <?php
 $servername = "localhost";
 $username = "your_username";
